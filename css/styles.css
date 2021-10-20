@@ -65,3 +65,81 @@ a {
 .contact-info .phone:focus {
   color: var(--accent-color);
 }
+
+/*герой*/
+.hero {
+  background-color: var(--secondary-bgc-color);
+}
+
+.hero-title {
+  color: var(--primary-bgc-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.button {
+  color: var(--primary-bgc-color);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.feauters-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.feauters-text {
+  font-weight: 400;
+}
+
+.job-title,
+.team-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-name {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*футер*/
+footer {
+  background-color: var(--secondary-bgc-color);
+}
+
+.logo-footer {
+  color: var(--primary-bgc-color);
+}
+
+.address {
+  font-style: normal;
+}
+.address-text {
+  color: var(--primary-bgc-color);
+}
+
+.address .mailo,
+.address .phone {
+  color: rgba(255, 255, 255, 0.6);
+}
