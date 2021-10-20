@@ -1,11 +1,11 @@
 :root {
   --primary-text-color: #757575; /* Основной цвет текста */
   --secondary-text-color: #212121; /* Вторичный цвет текста*/
-  --primary-bgc-color: #ffffff; /* Основной цвет фона */
-  --secondary-bgc-color: #2f303a; /* Вторичный цвет фона*/
+  --white-color: #ffffff; /* Основной цвет фона */
+  --bgc-color: #2f303a; /* Вторичный цвет фона*/
   --accent-color: #2196f3; /* Цвет акцента */
   --logo-color: #000000; /* Цвет лого*/
-  --team-section-bgc-color: #f5f4fa; /* Цвет фона, секции "команда"*/
+  --secondary-bgc-color: #f5f4fa; /* Цвет фона, секции "команда"*/
 }
 
 ul {
@@ -67,25 +67,25 @@ a {
 
 /*герой*/
 .hero {
-  background-color: var(--secondary-bgc-color);
+  background-color: var(--bgc-color);
+  text-align: center;
 }
 
 .hero-title {
-  color: var(--primary-bgc-color);
+  color: var(--white-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 
 .button {
-  color: var(--primary-bgc-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
+  cursor: pointer;
 }
 
 .feauters-title {
@@ -102,6 +102,10 @@ a {
   color: var(--secondary-text-color);
   line-height: 1.16;
   text-align: center;
+}
+
+.section-team {
+  background-color: var(--secondary-bgc-color);
 }
 
 .team-name {
@@ -121,18 +125,18 @@ a {
 
 /*футер*/
 footer {
-  background-color: var(--secondary-bgc-color);
+  background-color: var(--bgc-color);
 }
 
 .logo-footer {
-  color: var(--primary-bgc-color);
+  color: var(--white-color);
 }
 
 .address {
   font-style: normal;
 }
 .address-text {
-  color: var(--primary-bgc-color);
+  color: var(--white-color);
 }
 
 .address .mailo,
@@ -141,3 +145,31 @@ footer {
 }
 
 /*портфолио*/
+.part-item {
+  text-align: center;
+}
+.project-button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bgc-color);
+  font-weight: 500;
+  line-height: 1.62;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.project-button:hover,
+.project-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.project-feauters {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+}
