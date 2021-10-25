@@ -51,6 +51,9 @@ a {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .contact-info .mailo,
 .contact-info .phone {
   color: var(--primary-text-color);
@@ -91,6 +94,7 @@ a {
 .feauters-title {
   color: var(--secondary-text-color);
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .feauters-text {
@@ -126,6 +130,7 @@ a {
 /*футер*/
 footer {
   background-color: var(--bgc-color);
+  font-weight: 400;
 }
 
 .logo-footer {
@@ -172,4 +177,5 @@ footer {
 .project-text {
   font-size: 16px;
   line-height: 1.87;
+  font-weight: 400;
 }
